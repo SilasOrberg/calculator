@@ -32,15 +32,21 @@
 
 .button-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
 }
 
 .display-box {
     border: 2px solid var(--border);
     min-height: 80px;
     padding: 20px;
-    margin: 50px 0px;
     border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: var(--screen);
+    font-size: 29px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 body {
@@ -53,4 +59,19 @@ button {
     color: inherit;
 }
 
+.btn {
+    padding: 20px;
+    border: 2px var(--border) solid;
+    border-radius: 5px;
+    background-color: var(--btn);
+    font-size: 20px;
+    cursor: pointer;
+}
 
+.btn:hover {
+    background-color: var(--btn-hover);
+}
+
+.btn:active {
+    background-color: var(--btn-active)
+}
