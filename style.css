@@ -1,0 +1,56 @@
+:root {
+    --body: #f6f6f6;
+    --font: #222;
+    --border: #333;
+    --screen: #eee;
+    --calculator: #aaa;
+    --btn: #eee;
+    --btn-hover: #ddd;
+    --btn-active: #ccc;
+    --btn-red: #faa;
+    --btn-red-hover: #e99;
+    --btn-red-active: #d88;
+    --btn-blue: #aaf;
+    --btn-blue-hover: #99e;
+    --btn-blue-active: #88d;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.calculator {
+    max-width: 400px;
+    border: 2px var(--border) solid;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: var(--calculator);
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.display-box {
+    border: 2px solid var(--border);
+    min-height: 80px;
+    padding: 20px;
+    margin: 50px 0px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: var(--body);
+    color: var(--font);
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    color: inherit;
+}
+
+
