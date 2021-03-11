@@ -45,8 +45,6 @@
     background-color: var(--screen);
     font-size: 29px;
     text-align: right;
-    word-wrap: break-word;
-    word-break: break-all;
 }
 
 body {

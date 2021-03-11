@@ -28,6 +28,8 @@ function operate(operator, a, b) {
         const res = divide(a, b)
         var resRounded = res.toFixed(2);
         document.getElementById("display-text").innerHTML = resRounded
+    } else {
+        document.getElementById("display-text").innerHTML = "sorry, I'm not the smartest calculator on the block, I can't compute numbers higher than 9 ://"
     }
 }
 
